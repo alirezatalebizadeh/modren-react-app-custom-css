@@ -1,14 +1,30 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Article, Brand, Cta, Feature, Navbar } from "./components";
+import {
+  Footer,
+  Blog,
+  Possibility,
+  Features,
+  WhatGpt,
+  Header,
+} from "./containers";
+
+import { Cta, Brand, Navbar } from "./components";
 
 function App() {
   return (
-    <div className="">
-      <Navbar />
-      <Article />
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGpt />
+      <Features />
+      <Possibility />
       <Cta />
-      <Feature />
+      <Blog />
+      <Footer />
     </div>
   );
 }

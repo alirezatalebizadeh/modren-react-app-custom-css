@@ -1,5 +1,5 @@
 import React from 'react'
-import './WhatGpt.css'
+import './whatgpt.css'
 
 export default function WhatGpt() {
     return (
