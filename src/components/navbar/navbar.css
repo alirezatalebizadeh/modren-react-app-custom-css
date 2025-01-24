@@ -28,7 +28,7 @@
 }
 
 .gpt3__navbar-sign {
-  display: flex;
+  display: flex !important;
   justify-content: flex-end;
   align-items: center;
 }
@@ -127,6 +127,7 @@
   .gpt3__navbar-menu_container {
     top: 20px;
   }
+  
 
   .gpt3__navbar-menu_container-links-sign {
     display: block;
