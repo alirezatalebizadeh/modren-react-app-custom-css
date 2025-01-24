@@ -18,13 +18,15 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <Brand />
-      <WhatGpt />
-      <Features />
-      <Possibility />
-      <Cta />
-      <Blog />
-      <Footer />
+      <div className="section__padding">
+        <Brand />
+        <WhatGpt />
+        <Features />
+        <Possibility />
+        <Cta />
+        <Blog />
+        <Footer />
+      </div>
     </div>
   );
 }
